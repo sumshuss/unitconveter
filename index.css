@@ -1,0 +1,92 @@
+html, body{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.entire {
+   padding: 45px;
+    width: 650px;
+    height: 650px;
+    color: white;
+    margin: 0 auto;
+    
+}
+
+.num-input{
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+     border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+    
+
+}
+
+.convert {
+    background: #1F2937;
+    position: absolute;
+    width:550px;
+    height:260px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top:43px;
+}   
+
+h1 {
+    margin-bottom: 39px;
+    letter-spacing: -0.05em;
+    font-size: 22px;
+
+}
+
+h3 {
+    
+    margin-top: 20px
+    
+}
+
+p {
+    margin: auto;
+     display: inline
+}
+
+input {
+  width: 90%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 40px;
+  max-width: 400px;
+  text-align:center;
+    margin: auto; 
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid white;
+  background: #FB3796;
+  color: white;
+  font-weight: bold;
+  
+}
+
+::placeholder {
+  color: white;
+ 
+}
+button {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: white;
+    background: linear-gradient(246.26deg,#FB3796 30%,#585DFE 100%);
+    border: 1px solid white;
+    border-radius: 10px;
+}
